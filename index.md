@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: See the docs
-      link: /Piccolo.jl/
+      link: https://kestrelquantum.github.io/Piccolo.jl/
     - theme: alt
       text: Research
       link: /collaborations.html#research
     - theme: alt
       text: Examples
-      link: /Piccolo.jl/QuantumCollocation/dev/generated/examples/two_qubit_gates/
+      link: https://kestrelquantum.github.io/Piccolo.jl/QuantumCollocation/dev/generated/examples/two_qubit_gates/
 
 features:
   - icon:
