@@ -18,9 +18,7 @@ hero:
       link: https://kestrelquantum.github.io/Piccolo.jl/QuantumCollocation/dev/generated/examples/two_qubit_gates/
 
 features:
-  - icon:
-      src: https://github.com/kestrelquantum/QuantumCollocation.jl/raw/main/docs/src/assets/logo.svg
-    title: Piccolo.jl
+  - title: Piccolo.jl
     details: Meta-package for Piccolo quantum optimal control optimization and utilities
   - title: NamedTrajectories.jl
     details: Efficient storage and handling of trajectories for large state and control optimization
