@@ -3,7 +3,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/assets/andy.jpg',
+    avatar: './assets/andy.jpg',
     name: 'Andy Goldschmidt, PhD',
     title: 'Postdoctoral Researcher, University of Chicago',
     // links: [
@@ -12,7 +12,7 @@ const members = [
     // ]
   },
   {
-    avatar: '/assets/aaron.jpg',
+    avatar: './assets/aaron.jpg',
     name: 'Aaron Trowbridge',
     title: 'Staff Research Associate, Robotic Exploration Lab, CMU',
     // links: [
@@ -21,7 +21,7 @@ const members = [
     // ]
   },
   {
-    avatar: '/assets/jack.jpg',
+    avatar: './assets/jack.jpg',
     name: ' Jack Champagne',
     title: 'Masters of Software Engineering, CMU',
     // links: [
@@ -30,7 +30,7 @@ const members = [
     // ]
   },
   {
-    avatar: '/assets/gennadi.png',
+    avatar: './assets/gennadi.png',
     name: 'Gennadi Ryan',
     title: 'Bachelors in Computer Science + Math, Univeristy of Pittsburgh',
     // links: [
