@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: Research
       link: /collaborations.html#research
-    - theme: alt
-      text: Examples
-      link: https://kestrelquantum.github.io/Piccolo.jl/QuantumCollocation/dev/generated/examples/two_qubit_gates/
 
 features:
   - title: Piccolo.jl
