@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "Piccolo.jl"
-  text: "from Kestrel"
+  text: "from harmoniqs"
   tagline: Quantum Optimal Control via Direct Collocation
   actions:
     - theme: brand
       text: See the docs
-      link: https://kestrelquantum.github.io/Piccolo.jl/
+      link: https://docs.harmoniqs.co/
     - theme: alt
       text: Research
       link: /collaborations.html#research
