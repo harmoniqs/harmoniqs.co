@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Kestrel Quantum",
-  description: "Landing page for Kestrel, and the Piccolo.jl project",
+  title: "harmoniqs",
+  description: "Landing page for Harmoniqs, and the Piccolo.jl project",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,7 +13,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kestrelquantum/Piccolo.jl' }
+      { icon: 'github', link: 'https://github.com/harmoniqs/Piccolo.jl' }
     ],
   }
 })

@@ -1,6 +1,6 @@
-# kestrelquantum.github.io
+# harmoniqs.co
 
-The main page for kestrel quantum and the Piccolo.jl OSE.
+The main page for harmoniqs and the Piccolo.jl OSE.
 
 ## Contributing
 

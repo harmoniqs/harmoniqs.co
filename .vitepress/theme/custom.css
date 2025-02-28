@@ -1,12 +1,12 @@
 /* Custom CSS for VitePress theme */
 :root {
-    --kestrel-quantum-brand-color: hsl(7, 95%, 32%);
-    --kestrel-quantum-brand-color-light: hsl(7, 66%, 47%);
-    --vp-c-brand-1: var(--kestrel-quantum-brand-color);
+    --harmoniqs-quantum-brand-color: hsl(7, 95%, 32%);
+    --harmoniqs-quantum-brand-color-light: hsl(7, 66%, 47%);
+    --vp-c-brand-1: var(--harmoniqs-quantum-brand-color);
 
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(45deg, var(--kestrel-quantum-brand-color), 30%, var(--kestrel-quantum-brand-color-light));
+    --vp-home-hero-name-background: linear-gradient(45deg, var(--harmoniqs-quantum-brand-color), 30%, var(--harmoniqs-quantum-brand-color-light));
 
-    --vp-button-brand-bg: var(--kestrel-quantum-brand-color);
-    --vp-button-brand-hover-bg: var(--kestrel-quantum-brand-color-light);
+    --vp-button-brand-bg: var(--harmoniqs-quantum-brand-color);
+    --vp-button-brand-hover-bg: var(--harmoniqs-quantum-brand-color-light);
   }
