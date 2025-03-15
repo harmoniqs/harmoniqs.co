@@ -41,9 +41,22 @@ const members = [
 ]
 </script>
 
+# Interested?
+
+<form action="https://formsubmit.co/harmoniqs.co@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name Here" required>
+  <input type="email" name="email" placeholder="Your Email Here" required>
+  <button type="submit" class="email-submit">Yes!</button>
+</form>
+
+
 # Our Team
 
 <VPTeamMembers size="small" :members="members" />
+
+
+
+
 
 <!-- <span style="color:transparent;">We are a group of quantum optimal control researchers and software engineers looking to bring the best quantum control software to many prominent quantum hardware platforms.</span> -->
 
