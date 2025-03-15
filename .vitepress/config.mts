@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "harmoniqs",
+  title: "Harmoniqs",
   description: "Landing page for Harmoniqs, and the Piccolo.jl project",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

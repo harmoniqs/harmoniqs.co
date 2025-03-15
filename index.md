@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Piccolo.jl"
-  text: "from harmoniqs"
-  tagline: Quantum Optimal Control via Direct Collocation
+  text: "from Harmoniqs"
+  tagline: fine tuned quantum control inspired by robotics
   image:
     src: /logo.png
     alt: Harmoniqs
