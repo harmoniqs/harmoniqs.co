@@ -9,8 +9,11 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Collaborations', link: '/collaborations' },
-      { text: 'About', link: '/about' }
+      { text: 'About', link: '/about' },
+      { text: 'Demo', link: '/demo' }
     ],
+
+    logo: "logo.png",
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/harmoniqs/Piccolo.jl' }

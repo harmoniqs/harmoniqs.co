@@ -1,7 +1,7 @@
 /* Custom CSS for VitePress theme */
 :root {
-    --harmoniqs-quantum-brand-color: hsl(7, 95%, 32%);
-    --harmoniqs-quantum-brand-color-light: hsl(7, 66%, 47%);
+    --harmoniqs-quantum-brand-color: #523B6F;
+    --harmoniqs-quantum-brand-color-light: #6b5289;
     --vp-c-brand-1: var(--harmoniqs-quantum-brand-color);
 
     --vp-home-hero-name-color: transparent;
@@ -9,4 +9,37 @@
 
     --vp-button-brand-bg: var(--harmoniqs-quantum-brand-color);
     --vp-button-brand-hover-bg: var(--harmoniqs-quantum-brand-color-light);
+
+    input[type=text] {
+      width: 48%;
+      padding: 12px 20px;
+      margin: 15px 6px;
+      box-sizing: border-box;
+      border: 2px solid var(--harmoniqs-quantum-brand-color);
+      border-radius: 30px;
+    }
+
+    input[type=email] {
+      width: 48%;
+      padding: 12px 20px;
+      margin: 8px 6px;
+      box-sizing: border-box;
+      border: 2px solid var(--harmoniqs-quantum-brand-color);
+      border-radius: 30px;
+    }
+
+    button.email-submit {
+      background-color: var(--harmoniqs-quantum-brand-color);
+      border: none;
+      color: white;
+      padding: 14px 32px;
+      margin: 8px 6px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 98%;
+      border-radius: 30px;
+      margin-bottom: 30px;
+    }
   }
