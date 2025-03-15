@@ -12,6 +12,8 @@ export default defineConfig({
       { text: 'About', link: '/about' }
     ],
 
+    logo: "logo.png",
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/harmoniqs/Piccolo.jl' }
     ],
