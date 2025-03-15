@@ -1,7 +1,7 @@
 /* Custom CSS for VitePress theme */
 :root {
-    --harmoniqs-quantum-brand-color: #523B6F;
-    --harmoniqs-quantum-brand-color-light: #6b5289;
+    --harmoniqs-quantum-brand-color: #6b5289;
+    --harmoniqs-quantum-brand-color-light: #84719b;
     --vp-c-brand-1: var(--harmoniqs-quantum-brand-color);
 
     --vp-home-hero-name-color: transparent;
@@ -41,5 +41,19 @@
       width: 98%;
       border-radius: 30px;
       margin-bottom: 30px;
+    }
+
+    iframe.jp-nb-demo {
+      border: 2px solid #523B6F;
+      border-radius: 10px;
+      width: 100%;
+      height: 800px;
+    }
+
+    div.bottom-links {
+      text-align: center;
+      padding: 10px;
+      justify-content: space-evenly;
+      display: flex;
     }
   }
