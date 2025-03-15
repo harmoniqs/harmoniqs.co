@@ -15,7 +15,7 @@ hero:
       link: https://docs.harmoniqs.co/
     - theme: alt
       text: Research
-      link: /collaborations.html#research
+      link: /collaborations.html
 
 features:
   - title: Piccolo.jl
