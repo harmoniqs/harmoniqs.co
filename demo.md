@@ -1,8 +1,5 @@
 # Julia Interface
-
----
-
-# Julia Comparison
+<iframe id="jNBDemo" class="jp-nb-demo" src="/demo-comparison.html" title="Piccolo Interface"></iframe>
 
 ---
 
