@@ -1,4 +1,3 @@
-
 # Julia Interface
 
 ---
@@ -7,5 +6,5 @@
 
 ---
 
-# Python Interface (uses same julia backend for comparison)
- <iframe class=jp-nb-demo src="/pypiccolo.html" title="Python Piccolo Interface"></iframe> 
+# Python Interface (uses julia interface)
+<iframe id="pyJNBDemo" class="jp-nb-demo" src="/pypiccolo-dark.html" title="Python Piccolo Interface"></iframe>
