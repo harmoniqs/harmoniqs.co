@@ -1,11 +1,15 @@
 # Research Collaborations
 
 ### APS March Meeting Talks Featuring the Team from Harmoniqs 📚
-- **Engineered quantum interaction of Rydberg atom arrays with quantum optimal control** *3:00 pm – 5:24 pm, Monday March 17* :: [*Session MAR-C36*](https://summit.aps.org/events/MAR-C36/4)
-- **[Paper Title]**, *[Journal/Conference]* ([Year]) – [Link]
-- **[Paper Title]**, *[Journal/Conference]* ([Year]) – [Link]
 
-## Enabling Innovation Through Research Partnerships
+- **Automated calibration of optimal control pulses on a superconducting quantum RAM (QRAM) device**, *3:00 pm – 5:48 pm, Tuesday March 18* :: [Session MAR-J36](https://summit.aps.org/events/MAR-J36/3)
+- **Engineered quantum interaction of Rydberg atom arrays with quantum optimal control** *3:00 pm – 5:24 pm, Monday March 17* :: [*Session MAR-C36*](https://summit.aps.org/events/MAR-C36/4)
+- **Optimally Band-Limited Noise Filtering and Crosstalk Mitigation for Single Qubit Gates in Multi-Qubit Systems**, *8:00 am – 11:00 am,
+Tuesday March 18* ::  [Session MAR-F36](https://summit.aps.org/events/MAR-F36/10)
+- **Implementation of a Quantum Switch with Superconducting Circuits: Parts I and II** *8:00 am – 11:00 am, Monday March 17* :: [Session MAR-A18](https://summit.aps.org/events/MAR-A18/9)
+
+
+## Enabling Innovation Through Research Partnerships 🚀
 
 At **Harmoniqs**, we're focused on enabling **quantum technology** with **quantum optimal control**, providing fine-tuned solutions for researchers and institutions worldwide. Our technology is used today to optimize quantum operations, enhance error mitigation, and accelerate experimental breakthroughs in **quantum control, quantum algorithms, and quantum hardware development**. 
 
@@ -17,7 +21,6 @@ Want to work with Harmoniqs for your research? We actively collaborate with univ
 
 📩 **Get in Touch:** [\[Contact via Email\]](/about.html#interested)  
 <!--🌐 **Learn More:** [\[Collaboration Page / Application Link\]](/about.html#interested) -->
-
 ---
 
 ## Why Researchers Choose Harmoniqs 🎯
