@@ -56,7 +56,7 @@ Building and testing new hardware requires design and execution of complex novel
 ### ➡️  **Classical-Quantum Integration with QICK**
 📍 **Collaboration: Fermilab, Chicago, IL**
 
-📜 **Overview:**
+📜 **Overview:**  
 **Maximizing classical-quantum hardware integration** is essential for quantum computers to make the most of classical resources. We are working to develop a new version of the widely-used Quantum Instrumentation Control Kit (QICK), an open-hardware project that is the backbone of many quantum computing research efforts.
 
 ---
@@ -65,7 +65,7 @@ Building and testing new hardware requires design and execution of complex novel
 ### ➡️ **Control primitives for quantum sensors**
 📍 **Collaboration: Infleqtion**
 
-📜 **Overview:**
+📜 **Overview:**  
 Our innovative approach to quantum optimal control allowed for the design of novel, integrated approaches to existing sensing protocols, making them fast and increasing their performance.
 
 ---
@@ -73,7 +73,7 @@ Our innovative approach to quantum optimal control allowed for the design of nov
 ### ➡️ **Novel bosonic operations**
 📍 **Collaboration:** Vrajitoarea Lab at **NYU** 
 
-📜 **Overview:**
+📜 **Overview:**  
 Bosonic encodings offer unique advantages for quantum error correction, but state spaces are large! We help by driving innovation with scalable control solutions.
 
 ---
