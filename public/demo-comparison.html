@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>demo-comparison</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>demo_comparison</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7532,13 +7532,6 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>High level: The purpose will be to solve for minimum time <em>and</em> smooth controls, and empahsize why flexibility is nice.</p>
-<p>TODO:</p>
-<ol>
-<li>The hessians will make this code work a lot better (we should converge!)</li>
-<li>the min time problem signature must change with new code</li>
-<li>add any fun pictures, logos, or tweaks to the markdown to make it fun</li>
-</ol>
 </div>
 </div>
 </div>
@@ -7547,7 +7540,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="n">Piccolo</span>
@@ -7672,7 +7665,7 @@ a.anchor-link {
 <span class="n">U_goal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GATES</span><span class="o">.</span><span class="n">CX</span>
 
 <span class="c"># Timing information (e.g. 20 ns superconducting qubit gate)</span>
-<span class="n">T</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span><span class="w"> </span>
+<span class="n">T</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span>
 <span class="n">Δt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.4</span>
 </pre></div>
 </div>
@@ -7686,7 +7679,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>QuantumSystem(PiccoloQuantumObjects.QuantumSystems.var"#12#23"{SparseArrays.SparseMatrixCSC{ComplexF64, Int64}, Vector{SparseArrays.SparseMatrixCSC{ComplexF64, Int64}}}(sparse(Int64[], Int64[], ComplexF64[], 4, 4), SparseArrays.SparseMatrixCSC{ComplexF64, Int64}[sparse([3, 4, 1, 2], [1, 2, 3, 4], ComplexF64[1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im], 4, 4), sparse([3, 4, 1, 2], [1, 2, 3, 4], ComplexF64[0.0 + 1.0im, 0.0 + 1.0im, 0.0 - 1.0im, 0.0 - 1.0im], 4, 4), sparse([2, 1, 4, 3], [1, 2, 3, 4], ComplexF64[1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im], 4, 4), sparse([2, 1, 4, 3], [1, 2, 3, 4], ComplexF64[0.0 + 1.0im, 0.0 - 1.0im, 0.0 + 1.0im, 0.0 - 1.0im], 4, 4), sparse([4, 3, 2, 1], [1, 2, 3, 4], ComplexF64[1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im, 1.0 + 0.0im], 4, 4)]), PiccoloQuantumObjects.QuantumSystems.var"#13#24"{Vector{SparseArrays.SparseMatrixCSC{Float64, Int64}}, SparseArrays.SparseMatrixCSC{Float64, Int64}}(SparseArrays.SparseMatrixCSC{Float64, Int64}[sparse([7, 8, 5, 6, 3, 4, 1, 2], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8), sparse([3, 4, 1, 2, 7, 8, 5, 6], [1, 2, 3, 4, 5, 6, 7, 8], [1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0], 8, 8), sparse([6, 5, 8, 7, 2, 1, 4, 3], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8), sparse([2, 1, 4, 3, 6, 5, 8, 7], [1, 2, 3, 4, 5, 6, 7, 8], [1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0], 8, 8), sparse([8, 7, 6, 5, 4, 3, 2, 1], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8)], sparse(Int64[], Int64[], Float64[], 8, 8)), PiccoloQuantumObjects.QuantumSystems.var"#14#25"{Vector{SparseArrays.SparseMatrixCSC{Float64, Int64}}}(SparseArrays.SparseMatrixCSC{Float64, Int64}[sparse([7, 8, 5, 6, 3, 4, 1, 2], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8), sparse([3, 4, 1, 2, 7, 8, 5, 6], [1, 2, 3, 4, 5, 6, 7, 8], [1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0], 8, 8), sparse([6, 5, 8, 7, 2, 1, 4, 3], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8), sparse([2, 1, 4, 3, 6, 5, 8, 7], [1, 2, 3, 4, 5, 6, 7, 8], [1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0], 8, 8), sparse([8, 7, 6, 5, 4, 3, 2, 1], [1, 2, 3, 4, 5, 6, 7, 8], [-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0], 8, 8)]), 5, 4, Dict{Symbol, Any}())</pre>
+<pre>QuantumSystem(PiccoloQuantumObjects.QuantumSystems.var"#12#23"{SparseArrays.SparseMatrixCSC{ ... }}, ... )</pre>
 </div>
 </div>
 </div>
@@ -7729,7 +7722,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">prob</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">UnitarySmoothPulseProblem</span><span class="p">(</span><span class="n">system</span><span class="p">,</span><span class="w"> </span><span class="n">U_goal</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Δt</span><span class="p">);</span>
@@ -7769,7 +7762,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="c"># save these initial controls for later</span>
@@ -7809,7 +7802,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">solve!</span><span class="p">(</span><span class="n">prob</span><span class="p">,</span><span class="w"> </span><span class="n">max_iter</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="n">print_level</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -7840,10 +7833,10 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-julia"><pre><span></span><span class="n">a_final</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prob</span><span class="o">.</span><span class="n">trajectory</span><span class="o">.</span><span class="n">a</span><span class="w"> </span>
+<div class="highlight hl-julia"><pre><span></span><span class="n">a_final</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prob</span><span class="o">.</span><span class="n">trajectory</span><span class="o">.</span><span class="n">a</span>
 
 <span class="n">series</span><span class="p">(</span><span class="n">get_times</span><span class="p">(</span><span class="n">prob</span><span class="o">.</span><span class="n">trajectory</span><span class="p">),</span><span class="w"> </span><span class="n">a_final</span><span class="p">)</span>
 </pre></div>
@@ -7895,7 +7888,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">timesteps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fill</span><span class="p">(</span><span class="n">Δt</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="p">)</span>
@@ -7956,7 +7949,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">series</span><span class="p">(</span><span class="n">cumsum</span><span class="p">(</span><span class="n">timesteps</span><span class="p">),</span><span class="w"> </span><span class="n">result_GRAPE</span><span class="o">.</span><span class="n">minimizer</span><span class="p">)</span>
@@ -8008,7 +8001,7 @@ During the optimization, the modes $a_j(t)$ stay fixed and the coefficients $c_j
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="c"># First n=5 entries in a Fourier series, including the constant term</span>
@@ -8046,7 +8039,7 @@ During the optimization, the modes $a_j(t)$ stay fixed and the coefficients $c_j
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">Random</span><span class="o">.</span><span class="n">seed!</span><span class="p">(</span><span class="mi">1234</span><span class="p">)</span>
@@ -8149,7 +8142,7 @@ During the optimization, the modes $a_j(t)$ stay fixed and the coefficients $c_j
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [91]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">bound_prob</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">UnitarySmoothPulseProblem</span><span class="p">(</span>
@@ -8211,7 +8204,7 @@ The infidelity is 0.9971485277577704
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [95]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">series</span><span class="p">(</span><span class="n">get_times</span><span class="p">(</span><span class="n">bound_prob</span><span class="o">.</span><span class="n">trajectory</span><span class="p">),</span><span class="w"> </span><span class="n">bound_prob</span><span class="o">.</span><span class="n">trajectory</span><span class="o">.</span><span class="n">a</span><span class="p">)</span>
@@ -8259,7 +8252,7 @@ The infidelity is 0.9971485277577704
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">min_prob</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">UnitaryMinimumTimeProblem</span><span class="p">(</span><span class="n">prob</span><span class="p">,</span><span class="w"> </span><span class="n">system</span><span class="p">)</span>
@@ -8301,7 +8294,7 @@ The infidelity is 0.9971485277577704
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-julia"><pre><span></span><span class="n">fig</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Figure</span><span class="p">()</span>
