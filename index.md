@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: Research
       link: /collaborations.html
+    - theme: alt
+      text: Get connected!
+      link: /about.html#interested
 
 features:
   - title: Piccolo.jl
