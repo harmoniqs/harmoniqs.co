@@ -30,7 +30,7 @@ const members = [
     // ]
   },
   {
-    avatar: '/gennadi.png',
+    avatar: '/gennadi.jpg',
     name: 'Gennadi Ryan',
     title: 'Bachelors in Computer Science + Math, Univeristy of Pittsburgh',
     // links: [
