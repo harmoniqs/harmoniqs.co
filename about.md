@@ -3,15 +3,6 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/andy.jpg',
-    name: 'Andy Goldschmidt, PhD',
-    title: 'Postdoctoral Researcher, University of Chicago',
-    // links: [
-    //   { icon: 'github', link: 'https://github.com/yyx990803' },
-    //   { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    // ]
-  },
-  {
     avatar: '/aaron.jpg',
     name: 'Aaron Trowbridge',
     title: 'Staff Research Associate, Robotic Exploration Lab, CMU',
@@ -39,6 +30,18 @@ const members = [
     // ]
   }
 ]
+
+const communitymembers = [
+  {
+    avatar: '/andy.jpg',
+    name: 'Andy Goldschmidt, PhD',
+    title: 'Postdoctoral Researcher, University of Chicago',
+    // links: [
+    //   { icon: 'github', link: 'https://github.com/yyx990803' },
+    //   { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    // ]
+  },
+]
 </script>
 
 # Interested?
@@ -55,7 +58,9 @@ const members = [
 <VPTeamMembers size="small" :members="members" />
 
 
+## Community Maintainers
 
+<VPTeamMembers size="small" :members="communitymembers" />
 
 
 <!-- <span style="color:transparent;">We are a group of quantum optimal control researchers and software engineers looking to bring the best quantum control software to many prominent quantum hardware platforms.</span> -->
