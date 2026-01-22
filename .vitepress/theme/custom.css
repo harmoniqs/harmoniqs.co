@@ -1,15 +1,17 @@
 /* Custom CSS for VitePress theme */
 :root {
-    --harmoniqs-quantum-brand-color: #6b5289;
-    --harmoniqs-quantum-brand-color-light: #84719b;
+    --harmoniqs-quantum-brand-color: #eddd00;
+    --harmoniqs-quantum-brand-color-light: #FFF676;
     --vp-c-brand-1: var(--harmoniqs-quantum-brand-color);
 
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(45deg, var(--harmoniqs-quantum-brand-color), 30%, var(--harmoniqs-quantum-brand-color-light));
+    --vp-home-hero-name-background: linear-gradient(150deg, var(--harmoniqs-quantum-brand-color), 30%, var(--harmoniqs-quantum-brand-color-light));
 
     --vp-button-brand-bg: var(--harmoniqs-quantum-brand-color);
     --vp-button-brand-hover-bg: var(--harmoniqs-quantum-brand-color-light);
-
+    --vp-button-brand-text: #1b1b1b; /* Sets the variable */
+    --vp-button-brand-hover-text: var(--vp-c-text-2); /* Sets the variable */
+    
     input[type=text] {
       width: 48%;
       padding: 12px 20px;
@@ -57,4 +59,6 @@
       justify-content: space-evenly;
       display: flex;
     }
+    
+    
   }
