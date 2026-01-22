@@ -1,4 +1,8 @@
-# Research Collaborations
+# Collaborations
+
+### JuliaCon 2025 Quantum Minisymposium 🎥
+
+- **Future of our ecosystem**, technical details on whats exciting, and much more shared with our tight knit community of maintainers and developers :: [Towards Piccolo 1.0](https://www.youtube.com/watch?v=r_tXcF-G4GI)
 
 ### APS March Meeting Talks Featuring the Team from Harmoniqs 📚
 
